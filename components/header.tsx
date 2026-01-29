@@ -79,7 +79,6 @@ export function Header() {
               </AnimatePresence>
             </div>
 
-            {/* For Employers Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setEmployerDropdown(true)}
