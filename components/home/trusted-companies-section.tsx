@@ -65,7 +65,7 @@ export function TrustedCompaniesSection() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ scale: 1.1 }}
-             // className="grayscale transition-all hover:grayscale-0"
+              className="grayscale transition-all hover:grayscale-0"
             >
               <Image
                 src={company.logo || "/placeholder.svg"}
