@@ -12,10 +12,10 @@ const companies = [
     name: "Estami Hotel Tanga",
     logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Estami-Hotel-Tanga.png",
   },
-  {
-    name: "Babymoon",
-    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Babymoon.png",
-  },
+  //{
+  //  name: "Babymoon",
+ //   logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Babymoon.png",
+ // },
   {
     name: "Creative Studios",
     logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/colored-logo.png",
@@ -65,7 +65,7 @@ export function TrustedCompaniesSection() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ scale: 1.1 }}
-              className="grayscale transition-all hover:grayscale-0"
+             // className="grayscale transition-all hover:grayscale-0"
             >
               <Image
                 src={company.logo || "/placeholder.svg"}
