@@ -56,22 +56,25 @@ export function HeroSection() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/post-a-job">
-                <Button variant="secondary" size="lg" className="gap-2 bg-white text-foreground hover:bg-white/90">
+                <Button variant="secondary" size="md" className="gap-2 bg-white text-foreground hover:bg-white/90">
                   Post a Job Today
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
-              <Link href="www.calendly.com/bettercareer/30min">
+              <a
+                href="https://www.calendly.com/bettercareer/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   variant="outline"
-                  size="lg"
+                  size="md"
                   className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white"
-                  
                 >
-                  Talk to Hr
-                   <ArrowRight className="h-4 w-4" />
+                  Talk to HR
+                  <ArrowRight className="h-4 w-4" />
                 </Button>
-              </Link>
+              </a>
             </div>
 
             {/* Stats */}
