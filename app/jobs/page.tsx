@@ -109,7 +109,16 @@ export default function JobsPage() {
                         <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-foreground">
                           {job.category}
                         </span>
-                        <Button size="sm">Apply Now</Button>
+                        <Button asChild size="sm">
+                          <a
+                            href="https://wa.me/15558075789"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Apply Now
+                          </a>
+                        </Button>
                       </div>
                     </div>
                     <p className="mt-4 line-clamp-2 text-sm text-muted-foreground">{job.description}</p>
