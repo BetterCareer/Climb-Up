@@ -138,6 +138,13 @@ export function Header() {
                 <Link href="/login">
                   <Button size="sm">Register</Button>
                 </Link>
+                  <a
+                    href="https://www.calendly.com/bettercareer/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="sm">Book a Free Call</Button>
+                  </a>
               </>
             )}
           </div>
@@ -219,6 +226,20 @@ export function Header() {
                     </>
                   )}
                 </div>
+                {!user && (
+                  <div className="px-4 pt-2">
+                    <a
+                      href="https://www.calendly.com/bettercareer/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      <Button className="w-full">Book a Free Call</Button>
+                    </a>
+                  </div>
+                )}
+                
               </div>
             </motion.div>
           )}
