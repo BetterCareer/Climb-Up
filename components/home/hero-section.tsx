@@ -55,34 +55,34 @@ export function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button 
-                asChild
-                variant="secondary" 
-                className="gap-2 bg-white text-foreground hover:bg-white/90 px-8 py-3 text-base h-auto"
+              <a
+                href="https://wa.me/15558075789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex"
               >
-                <a
-                  href="https://wa.me/15558075789"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Button 
+                  variant="secondary" 
+                  className="gap-2 bg-white text-foreground hover:bg-white/90 px-8 py-3 text-base h-auto"
                 >
                   Say "Hello" to Post a Job
                   <ArrowRight className="h-5 w-5" />
-                </a>
-              </Button>
-              <Button
-                asChild
-                variant="outline"
-                className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white px-8 py-3 text-base h-auto"
+                </Button>
+              </a>
+              <a
+                href="https://wa.me/15558075789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex"
               >
-                <a
-                  href="https://wa.me/15558075789"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Button
+                  variant="outline"
+                  className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white px-8 py-3 text-base h-auto"
                 >
                   Find Jobs - Say "Hello"
                   <ArrowRight className="h-5 w-5" />
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
 
             {/* Stats */}
