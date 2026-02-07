@@ -60,10 +60,14 @@ export function HeroSection() {
                 variant="secondary" 
                 className="gap-2 bg-white text-foreground hover:bg-white/90 px-8 py-3 text-base h-auto"
               >
-                <Link href="/post-a-job">
-                  Post a Job Today
+                <a
+                  href="https://wa.me/15558075789"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Say "Hello" to Post a Job
                   <ArrowRight className="h-5 w-5" />
-                </Link>
+                </a>
               </Button>
               <Button
                 asChild
@@ -71,11 +75,11 @@ export function HeroSection() {
                 className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white px-8 py-3 text-base h-auto"
               >
                 <a
-                  href="https://www.calendly.com/bettercareer/30min"
+                  href="https://wa.me/15558075789"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Talk to HR
+                  Find Jobs - Say "Hello"
                   <ArrowRight className="h-5 w-5" />
                 </a>
               </Button>
