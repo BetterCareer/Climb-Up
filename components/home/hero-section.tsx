@@ -56,7 +56,9 @@ export function HeroSection() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/post-a-job">
-                <Button variant="secondary" size="md" className="gap-2 bg-white text-foreground hover:bg-white/90">
+                <Button variant="secondary" 
+                size="lg"
+                className="gap-2 bg-white text-foreground hover:bg-white/90">
                   Post a Job Today
                   <ArrowRight className="h-4 w-4" />
                 </Button>
@@ -68,7 +70,7 @@ export function HeroSection() {
               >
                 <Button
                   variant="outline"
-                  size="md"
+                  size="lg"
                   className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white"
                 >
                   Talk to HR
